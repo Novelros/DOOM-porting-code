@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "COld";
+  src: url("COld.TTF") format("truetype");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+canvas {
+  background: #1c1210;
+  image-rendering: pixelated;
+  cursor: default;
+}
